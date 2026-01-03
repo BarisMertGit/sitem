@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My journey as a developer - from university to professional software development">
+    <meta name="keywords" content="developer story, career journey, experience, timeline, education">
+    <title>My Story | Barış Mert Tarlacı</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span>&lt;</span>BMT<span>/&gt;</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="navHome">Home</a></li>
+                <li><a href="projects.html" data-i18n="navProjects">Projects</a></li>
+                <li><a href="story.html" class="active" data-i18n="navStory">My Story</a></li>
+                <li><a href="contact.html" data-i18n="navContact">Contact</a></li>
+                <li class="lang-switcher">
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="tr">TR</button>
+                </li>
+            </ul>
+
+            <div class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1><span data-i18n="storyTitle">My</span> <span data-i18n="storyTitleSpan">Journey</span></h1>
+
+    </header>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="timeline">
+
+            <!-- Timeline Item 1 - University -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                        <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date" data-i18n="timeline1Date">2021 - Present</span>
+                    <h3 class="timeline-title" data-i18n="timeline1Title">University</h3>
+                    <p class="timeline-subtitle" data-i18n="timeline1Subtitle">Bachelor of Management of Information
+                        Systems (EN)</p>
+                    <p class="timeline-description" data-i18n="timeline1Desc">
+                        Studying at İzmir Bakırçay University, focusing on software development, data analysis, and
+                        business processes. Working on various projects including genetic algorithm-based scheduling
+                        systems and data visualization applications.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 2 - Ivynet -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date" data-i18n="timeline2Date">10/2025 - Present</span>
+                    <h3 class="timeline-title" data-i18n="timeline2Title">Intern</h3>
+                    <p class="timeline-subtitle" data-i18n="timeline2Subtitle">Ivynet Information Technology Electronics
+                        Inc.</p>
+                    <p class="timeline-description" data-i18n="timeline2Desc">
+                        Developing and customizing Odoo ERP modules based on business process analysis using Python.
+                        Managing and executing data migration from legacy systems to Odoo ERP, ensuring data integrity.
+                        Providing technical support and creating user documentation for various departments.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 3 - Değer Steel -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                        <path d="M2 17l10 5 10-5" />
+                        <path d="M2 12l10 5 10-5" />
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date" data-i18n="timeline3Date">07/2025 - 10/2025</span>
+                    <h3 class="timeline-title" data-i18n="timeline3Title">Intern</h3>
+                    <p class="timeline-subtitle" data-i18n="timeline3Subtitle">Değer Steel Metal Industry and Trade Inc.
+                    </p>
+                    <p class="timeline-description" data-i18n="timeline3Desc">
+                        Utilized Odoo ERP system to streamline sales operations and improve data management.
+                        Successfully generated sales by managing the entire sales cycle, from lead engagement to closing
+                        deals. Contributed to the development and enhancement of the Odoo system to optimize sales
+                        processes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 4 - Corecode -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                        <circle cx="12" cy="7" r="4" />
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date" data-i18n="timeline4Date">02/2024 - 04/2024</span>
+                    <h3 class="timeline-title" data-i18n="timeline4Title">Business Development Assistant</h3>
+                    <p class="timeline-subtitle" data-i18n="timeline4Subtitle">Corecode Technology</p>
+                    <p class="timeline-description" data-i18n="timeline4Desc">
+                        Performed in-depth market research and business analysis to guide operational strategies and
+                        understand competitor landscapes. Optimized customer relationship management (CRM) processes to
+                        improve data accuracy and follow-up efficiency.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 <a href="index.html">Barış Mert Tarlacı</a>. <span data-i18n="footerText">All rights reserved.</span>
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

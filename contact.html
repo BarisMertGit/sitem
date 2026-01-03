@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Get in touch with Barış Mert Tarlacı - Available for collaborations and job opportunities">
+    <meta name="keywords" content="contact, hire developer, collaboration, job opportunities">
+    <title>Contact | Barış Mert Tarlacı</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span>&lt;</span>BMT<span>/&gt;</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="navHome">Home</a></li>
+                <li><a href="projects.html" data-i18n="navProjects">Projects</a></li>
+                <li><a href="story.html" data-i18n="navStory">My Story</a></li>
+                <li><a href="contact.html" class="active" data-i18n="navContact">Contact</a></li>
+                <li class="lang-switcher">
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="tr">TR</button>
+                </li>
+            </ul>
+
+            <div class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1><span data-i18n="contactTitle">Get In</span> <span data-i18n="contactTitleSpan">Touch</span></h1>
+        <p data-i18n="contactSubtitle">Have a project in mind or just want to say hello? I'd love to hear from you!</p>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-grid">
+
+            <!-- Contact Form -->
+            <div class="fade-in">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" data-i18n="formName">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe"
+                            data-i18n-placeholder="formNamePlaceholder" required>
+                        <span class="form-error" data-i18n="formErrorRequired">This field is required</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" data-i18n="formEmail">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com"
+                            data-i18n-placeholder="formEmailPlaceholder" required>
+                        <span class="form-error" data-i18n="formErrorEmail">Please enter a valid email</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" data-i18n="formMessage">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project or just say hi..."
+                            data-i18n-placeholder="formMessagePlaceholder" required></textarea>
+                        <span class="form-error" data-i18n="formErrorRequired">This field is required</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg>
+                        <span data-i18n="formSubmit">Send Message</span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-section fade-in">
+                <h3 data-i18n="socialTitle">Let's Connect</h3>
+                <p data-i18n="socialText">
+                    Feel free to reach out through any of these platforms.
+                    I'm always excited to discuss new projects, creative ideas,
+                    or opportunities to be part of your vision.
+                </p>
+
+                <div class="social-links">
+                    <!-- GitHub -->
+                    <a href="https://github.com/BarisMertGit" target="_blank" rel="noopener noreferrer"
+                        class="social-link" aria-label="GitHub Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                        </svg>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/barış-mert-tarlacı-313188259/" target="_blank"
+                        rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+
+                    <!-- Email -->
+                    <a href="mailto:mrttrlc@hotmail.com" class="social-link" aria-label="Send Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                    </a>
+
+                    <!-- Phone -->
+                    <a href="tel:+905368173633" class="social-link" aria-label="Phone">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="location-card">
+                    <h4 data-i18n="locationTitle">📍 Based in İzmir, Turkey</h4>
+                    <p data-i18n="locationText">Available for remote work worldwide</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 <a href="index.html">Barış Mert Tarlacı</a>. <span data-i18n="footerText">All rights reserved.</span>
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

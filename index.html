@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Barış Mert Tarlacı - Management Information Systems Student & Software Developer | Building modern web applications with Python, FastAPI, and Genetic Algorithms">
+    <meta name="keywords" content="developer, software developer, MIS student, Python, FastAPI, Odoo ERP, portfolio">
+    <title>Barış Mert Tarlacı | Software Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span>&lt;</span>BMT<span>/&gt;</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active" data-i18n="navHome">Home</a></li>
+                <li><a href="projects.html" data-i18n="navProjects">Projects</a></li>
+                <li><a href="story.html" data-i18n="navStory">My Story</a></li>
+                <li><a href="contact.html" data-i18n="navContact">Contact</a></li>
+                <li class="lang-switcher">
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="tr">TR</button>
+                </li>
+            </ul>
+
+            <div class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span data-i18n="heroTitle">Hello, I'm</span>
+                <span data-i18n="heroName">Barış Mert</span>
+            </h1>
+            <p class="hero-role" data-i18n="heroRole">Management Information Systems Student & Software Developer</p>
+            <p class="hero-description" data-i18n="heroDescription">
+                I craft elegant solutions to complex problems using Genetic Algorithms, Python, and modern web
+                technologies. Experienced in ERP development, data analysis, and building full-stack applications.
+            </p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    <span data-i18n="btnDownloadCV">Download CV</span>
+                </a>
+                <a href="projects.html" class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
+                    <span data-i18n="btnViewWork">View My Work</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-card fade-in">
+            <h2 data-i18n="aboutTitle">About Me</h2>
+            <p data-i18n="aboutText1">
+                Management Information Systems student with hands-on experience in software development. I specialize in
+                building complex Genetic Algorithm-based scheduling systems (FastAPI, DEAP, PostgreSQL) to solve NP-Hard
+                optimization problems.
+            </p>
+            <p data-i18n="aboutText2">
+                Highly proficient in data analysis, visualization, and database querying using MySQL, R, and Tableau to
+                drive process optimization and support digital transformation.
+            </p>
+
+            <h2 style="margin-top: 2rem;" data-i18n="skillsTitle">Core Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">FastAPI</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">Odoo ERP</span>
+                <span class="skill-tag">R</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Tableau</span>
+                <span class="skill-tag">DEAP</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 <a href="index.html">Barış Mert Tarlacı</a>. <span data-i18n="footerText">All rights reserved.</span>
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
