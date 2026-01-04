@@ -56,45 +56,10 @@
 
     <!-- Contact Section -->
     <section class="contact-section">
-        <div class="contact-grid">
-
-            <!-- Contact Form -->
-            <div class="fade-in">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name" data-i18n="formName">Your Name</label>
-                        <input type="text" id="name" name="name" placeholder="John Doe"
-                            data-i18n-placeholder="formNamePlaceholder" required>
-                        <span class="form-error" data-i18n="formErrorRequired">This field is required</span>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email" data-i18n="formEmail">Email Address</label>
-                        <input type="email" id="email" name="email" placeholder="john@example.com"
-                            data-i18n-placeholder="formEmailPlaceholder" required>
-                        <span class="form-error" data-i18n="formErrorEmail">Please enter a valid email</span>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message" data-i18n="formMessage">Your Message</label>
-                        <textarea id="message" name="message" placeholder="Tell me about your project or just say hi..."
-                            data-i18n-placeholder="formMessagePlaceholder" required></textarea>
-                        <span class="form-error" data-i18n="formErrorRequired">This field is required</span>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="22" y1="2" x2="11" y2="13" />
-                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
-                        </svg>
-                        <span data-i18n="formSubmit">Send Message</span>
-                    </button>
-                </form>
-            </div>
+        <div style="display: flex; justify-content: center; width: 100%;">
 
             <!-- Social Links -->
-            <div class="social-section fade-in">
+            <div class="social-section fade-in" style="text-align: center; max-width: 600px;">
                 <h3 data-i18n="socialTitle">Let's Connect</h3>
                 <p data-i18n="socialText">
                     Feel free to reach out through any of these platforms.
@@ -102,7 +67,7 @@
                     or opportunities to be part of your vision.
                 </p>
 
-                <div class="social-links">
+                <div class="social-links" style="justify-content: center;">
                     <!-- GitHub -->
                     <a href="https://github.com/BarisMertGit" target="_blank" rel="noopener noreferrer"
                         class="social-link" aria-label="GitHub Profile">
