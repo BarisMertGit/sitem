@@ -152,7 +152,7 @@ const translations = {
         formSubmit: 'Mesaj Gönder',
         formErrorRequired: 'Bu alan zorunludur',
         formErrorEmail: 'Geçerli bir e-posta girin',
-        socialTitle: 'Bağlantı Kuralım',
+        socialTitle: 'İletişim Adresleri',
         socialText: 'Bu platformlardan herhangi biri aracılığıyla bana ulaşmaktan çekinmeyin. Yeni projeleri, yaratıcı fikirleri veya vizyonunuzun bir parçası olma fırsatlarını tartışmak için her zaman heyecanlıyım.',
         locationTitle: '📍 Türkiye\'de',
         locationText: 'Dünya çapında uzaktan çalışmaya uygun',
